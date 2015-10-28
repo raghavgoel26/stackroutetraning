@@ -1,0 +1,92 @@
+First of all install speecy ..go to CPU and check if virtualization is enabled ..If not reboot the system..go to BIOs..security..and then virtualization..enable both options that are shown..
+
+then install atom
+
+install gitbash
+
+install virtual box
+
+for installing vagrant go to stackroute github repository named vagrant-html-bootstrap
+
+dowload zip
+
+now in c: create a folder named vagrant n extarct that zip into this folder..
+
+now open git bash
+
+check pwd
+
+now go to directory named vagrant we just created in c:
+
+use cd c:/
+    cd Vagrant/
+    cd vagrant-html-bootstrap(Use tab for autofill)
+    now type ls
+    to check for files present inside
+
+check for Vagrantfile
+
+it is a file  written in ruby..
+
+//////////* See comments *////
+config.vm.box = "ubuntu/trusty32" //search for ubuntu version trusty32 in Vagrant cloud
+
+//if not able to connect to cloud than we have provided the url for package we have uploaded on our local hoast
+config.vm.box_url = "http://172.23.238.13/vagrant/boxes/trusty-server-cloudimg-i386-vagrant-disk1.box"
+
+//we dont want our system to check for its updated version
+config.vm.box_check_update = false
+
+# Map the guest os port 8080 to host os port 8080
+config.vm.network "forwarded_port", guest: 8080, host: 8080
+
+//now ubuntu is installed on virtual box..we want other tools like node to be installed..
+//we create n call a puppet(created in different folder) for that..
+# use puppet to provision this virtual box`
+config.vm.provision :puppet do |puppet|
+   puppet.manifests_path = "puppet/manifests"
+   puppet.module_path = "puppet/modules"
+
+// End of code
+
+/////////*****************************************////////////
+
+now in git bash
+(we are already in the vagrant-htl-bootstrap-master directory )
+
+type commands
+vagrant up
+
+//this is to start virtual box and loads ubuntu
+
+vagrant ssh
+
+//this is to take control inside ubuntu command prompt..
+
+sudo apt-get update
+
+sudo apt-get install nodejs
+
+sudo apt-get install npm
+
+sudo npm install node-static -g
+
+sudo ln -i /usr/bin/nodejs /usr/bin/node
+
+//This creates a symbolic link
+
+cd ../ ../vagrant
+
+/vagrant$ ls
+
+static -a 0.0.0.0
+
+now run a browser
+
+http://localhost:8080/index.html
+
+//8080 is a port number of host that we mentioned in Vagrantfile..
+//If we are making multiple virtual machines..than in Vagrantfile inside that new directory make change to
+//to host port number..eg : 1234
+
+than above link would become http://localhost:1234/index.html
