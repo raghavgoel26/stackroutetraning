@@ -1,0 +1,16 @@
+a{
+color:red;
+text-decoration:none;
+}
+
+
+h1{
+font-family: arial;
+}
+
+div{
+  margin: auto;
+  width:500px;
+  background-color: red;
+  text-align:center;
+}

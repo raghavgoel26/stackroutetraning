@@ -1,0 +1,26 @@
+
+
+body
+{
+  background:grey;
+}
+
+#main{
+  margin:auto;
+  width:500px;
+  text-align: center;
+}
+
+#firstquote, #secondquote{
+
+  border-width: medium;
+  border-color: white;
+  border-style: solid;
+}
+
+#list
+{
+  text-align: justify;
+  margin: auto;
+  width:200px;
+}
