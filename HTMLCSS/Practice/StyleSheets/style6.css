@@ -1,0 +1,13 @@
+h1{
+
+  font-size: 120px;
+  font-family: cursive;
+  margin-top: 50px;
+  text-align: center;
+  letter-spacing: -5px;
+  color:#666;
+  text-transform: uppercase;
+  text-shadow: 5px 10px 10px black;
+
+  font-family: 'Poiret One', cursive;
+}

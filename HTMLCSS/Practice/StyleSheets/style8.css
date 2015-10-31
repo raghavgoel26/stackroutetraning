@@ -1,0 +1,67 @@
+
+article{
+  width:600px;
+  margin: auto;
+}
+
+
+.meta li
+{
+  display: inline;
+}
+
+.meta a
+{
+  text-decoration: none;
+}
+
+.meta
+{
+  padding: 0px 0px;
+}
+
+
+article img
+{
+  width: 200px;
+}
+
+.image
+{
+  width:200px;
+  float: left;
+  margin-right:30px;
+}
+.content
+{
+  float: right;
+  width:370px;
+}
+
+article h1{
+
+  font-size: 39px;
+  line-height: 43px;
+  margin-top:0;
+}
+
+.meta a{
+  font-style: italic;
+}
+
+
+.meta li:after
+{
+  content: '\\';
+  padding: 0px 5px;
+}
+
+.meta li:last-child::after
+{
+  content:none;
+}
+
+.info{
+  background:#f3f3f3
+  color:#999;
+}
