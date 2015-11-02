@@ -1,0 +1,275 @@
+nav li{
+  display: inline;
+}
+
+/*.bottom-wrap{
+
+  margin-top: 100px;
+}
+header{
+position: fixed;
+
+color:red;
+}*/
+
+.footer-menu{
+
+margin-left: 70px;
+
+}
+
+footer .widget{
+
+  margin-left: 20px;
+}
+
+.content-wrap h2{
+
+  text-align: center;
+
+}
+
+header .grid_2 ,.grid_4 ,.grid_6{
+
+  margin-left: 0px  ;
+  margin-right: 0px;
+}
+
+.wrap{
+  margin:auto;
+}
+
+header li{
+  margin-left:15px;
+}
+
+.paytm-deals
+{
+  margin-top:40px;
+  margin:bottom:20px;
+
+}
+
+.hero-content span{
+
+  margin-left: 30px;
+  padding: 10px;
+  border: solid medium black;
+
+
+}
+
+
+.hero-content span a{
+
+  text-decoration: none;
+  font-size:14px;
+  font-weight: bold;
+
+
+}
+
+.hero{
+
+  background: url("../Images/hero-image.png") no-repeat fixed center;
+  height:350px;
+}
+
+.hero-2{
+  background: url("../Images/paytm-cover.jpg") no-repeat fixed center;
+  height:350px;
+}
+
+
+.deals img{
+  max-width:100%
+}
+
+
+
+.content-wrap{
+
+  padding:80px 0;
+
+}
+
+.footer-wrap{
+
+  padding:80px 0px;
+
+
+}
+
+#page-menu-wrap{
+  background: #1ABC9C;
+}
+
+.menu-title{
+
+    float: left;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 300;
+    padding-top: 25px;
+}
+
+#page-menu img{
+
+   height:50px;
+
+
+}
+.subscribe{
+
+  margin:30px 0;
+  font-size: 20px;
+  color: black;
+  font-family: 'Fjalla One',sans-serif;
+
+}
+input {
+
+    height: 32px;
+    line-height: 32px;
+    border: 0;
+    width: 250px;
+    float: left;
+    background: #fee3ad;
+    border: 1px solid #781351
+
+}
+
+.subscribe-data{
+
+  padding-top: 35px;
+
+}
+
+#subscribe-form{
+
+  padding-top:60px;
+  float:right;
+}
+
+
+.deal-row{
+
+margin-bottom: 20px;
+
+}
+
+.deal-row .alpha{
+  margin-right: 5px;
+}
+
+.deal-row .gamma{
+  margin-left: 5px;
+}
+
+
+
+.deals{
+
+  margin-bottom: 50px;
+
+}
+
+.deal-box{
+
+border: solid medium #1ABC9C;
+
+}
+
+#page-menu nav ul{
+  padding-top: 15px;
+}
+
+/*#page-menu nav li a {
+    height: 28px;
+    line-height: 28px;
+    margin: 8px 1px;
+    padding:14px;
+    color: #FFF;
+    font-size: 14px;
+    border-radius: 14px;
+    text-decoration: none;
+}*/
+
+#page-menu nav li  {
+
+  margin-left: 0;
+}
+
+
+#page-menu .menu-title span {
+    font-weight: 600;
+}
+
+header nav li a{
+  font-family: Raleway, sans-serif;
+  font-size: 13px;
+  line-height: 120px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;;
+  text-decoration: none;
+  text-align: left;
+  color:#444;
+}
+
+a:hover{
+  color:#1ABC9C;
+}
+
+
+#footer{
+
+  border:solid medium #1ABC9C;
+  color:#1ABC9C;
+}
+
+footer a{
+
+  color:#1ABC9C
+}
+
+.subscribe{
+  border:solid medium #1ABC9C;
+}
+
+#logo{
+  padding-right: 30px;
+  margin-right: 5px;
+  border-right: 1px solid #EEE;
+
+}
+
+.alpha{
+  margin-left: 0;
+  margin-right:0;
+}
+
+.gamma{
+
+  margin-right:0;
+  margin-left:0;
+}
+
+.searchncart{
+  padding:40px 0;
+  height:20px;
+}
+
+.searchncart a{
+  width:20px;
+  margin-left: 25px;
+}
+
+#primary-menu{
+  height:97px;
+  border-right: 1px solid #EEE;
+  padding-right: 10px;
+  }
+#page-menu{
+  margin-bottom: 20px;
+}
