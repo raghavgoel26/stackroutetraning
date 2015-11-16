@@ -6,7 +6,10 @@ install gitbash
 
 install virtual box
 
-for installing vagrant go to stackroute github repository named vagrant-html-bootstrap
+for installing vagrant
+
+first run vagrant setup
+then go to stackroute github repository named vagrant-html-bootstrap
 
 dowload zip
 
