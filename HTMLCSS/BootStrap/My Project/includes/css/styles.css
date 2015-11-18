@@ -1,0 +1,452 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Brad Hussey
+Updated: August 2013
+Notes:	 Hand coded for Udemy.com
+
+*/
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+
+
+
+   .listing-title {
+       display: block;
+       font-size: 26px;
+       padding: 35px 0px 15px 0px;
+       text-align: center;
+       text-transform: uppercase;
+       color: #343434;
+     }
+
+#best-offers{
+  text-align: center;
+}
+
+
+#offers{
+  text-align: center;
+}
+
+
+
+#offers .panel-body img{
+  height:100%;
+  width:100%;
+  margin:0px 0px 20px;
+}
+
+#offers .panel-heading img{
+  height:50px;
+}
+
+#inputMessage{
+  margin-bottom: 15px;
+}
+
+footer{
+  background: #333;
+  color:#eee;
+  font-size:11px;
+  padding: 20px;
+}
+
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+body{
+
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizelegibility;
+}
+
+
+
+ul.unstyled{
+  list-style: none;
+  padding: 0;
+}
+
+
+   /* --------------------------------------
+      Navbar
+      -------------------------------------- */
+
+   #searchInput {
+   	width: 200px;
+   }
+
+   .navbar-brand {
+   	padding: 13px 15px;
+   }
+
+   .navbar{
+     background: #0071b5;
+     min-height: 69px;
+
+   }
+
+
+    .navbar .caret {
+       border-top-color: white !important;
+       border-bottom-color: white !important;
+   }
+
+   .navbar .container{
+     padding: 10px 0 10px;
+   }
+
+
+   .navbar a.dropdown-toggle{
+     color:white;
+   }
+
+   .navbar #searchButton {
+     background-color: #00b59f !important;
+     border-color: white;
+     color:white;
+   }
+
+   .dropdown-menu li{
+     color:#0071b5;
+     padding:5px;
+   }
+
+   .dropdown-header{
+     font-size: 15px;
+     text-align: center;
+   }
+
+
+    .dropdown-menu{
+      border:3px solid #0071b5;
+    }
+
+      .dropdown-menu li a{
+        color:#0071b5;
+      }
+
+
+   /* --------------------------------------
+      Carousel
+      -------------------------------------- */
+
+   #myCarousel {
+
+   	margin-top: 100px;
+   }
+
+
+   	font-size: 24px;
+
+   }
+
+   .carousel-caption h4 {
+   	font-size: 32px;
+   }
+
+   #myCarousel .item { height: 285px; }
+
+
+   #slide1 {
+   	background: url('../../images/cover-peter-medium.jpg') top center no-repeat;
+   }
+
+   #slide2 {
+   	background: url('../../images/cover-kaya-medium.jpg') top center no-repeat;
+   }
+
+   #slide3 {
+   	background: url('../../images/cover-sports-medium.jpg') top center no-repeat;
+   }
+
+
+
+   /* --------------------------------------
+      Brand strip
+      -------------------------------------- */
+
+      #top-brands-strip img{
+        height:100%;
+        width:100%;
+      }
+
+      #top-brands-col{
+        background: #0071b5;
+        color:white;
+        text-align: center;
+      }
+
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+.alert{
+  margin-top: 20px;
+  display: none;
+}
+
+
+.tabbable img.thumbnail{
+  margin: 0 20px 10px 0;
+}
+
+.row{
+  margin-left: 0;
+  margin-right:0;
+}
+.categories {
+  margin: 20px 0;
+}
+
+
+
+
+.category-box{
+  margin-bottom: 10px;
+  background-position: center;
+  background-size: cover;
+  background-color: black;
+}
+
+.category-box img{
+  height:100%;
+  width:100%;
+}
+
+.category-content{
+  position: relative;
+}
+
+.category-content img{
+  opacity: 0.5;
+}
+
+
+.category-content .category-link{
+  position: absolute;
+  top:25%;
+
+}
+
+.category-link span{
+  font-size:40px;
+  color:white;
+}
+
+.category-link {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.category-content h3{
+  color:white;
+  font-size: 20px;
+}
+
+/* --------------------------------------
+   Hero
+   -------------------------------------- */
+
+   .hero{
+
+     margin-top: 50px;
+     background: url("../../images/paytm-cover.jpg") no-repeat fixed center;
+     height:350px;
+}
+
+.hero-content span{
+
+  margin-left: 30px;
+  padding: 10px;
+  border: solid 1px grey;
+  border-radius: 25px;
+
+
+}
+
+
+.hero-content span a{
+
+  text-decoration: none;
+  font-size:14px;
+  font-weight: bold;
+
+
+}
+
+/* --------------------------------------
+   Deals
+   -------------------------------------- */
+
+
+   .deals .deal-content{
+
+ margin-top:30px;
+
+   }
+   .deals img{
+     width:100%;
+     height: 100%;
+   }
+
+
+
+  .deal-content a:hover{
+    text-decoration: none;
+  }
+
+  .deal-box{
+    margin:10px 0;
+  }
+
+
+/* --------------------------------------
+   Subscribe
+   -------------------------------------- */
+
+   .mobile-app{
+     background: url("../../images/background.png");
+     background-repeat: repeat;
+     margin-bottom: 20px;
+   }
+
+   .app-image{
+     text-align: right;
+   }
+
+   .app-content{
+     margin-top: 70px;;
+   }
+
+   .app-links span{
+     font-size: 18px;
+   }
+
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+
+
+/* Landscape phone to portrait tablet */
+
+
+@media (max-width: 480px) {
+
+  #top-brands-strip img{
+    height:80%;
+    width:80%;
+  }
+
+  #top-brands-strip{
+    text-align: center;
+  }
+
+  .category-box{
+    text-align: center;
+    height:80%;
+    width:80%;
+    margin: auto;
+    margin-bottom: 10px;
+  }
+
+  .categories{
+    text-align: center;
+    margin:auto;
+  }
+
+
+}
+
+@media (max-width: 768px) {
+
+
+  .category-box{
+    text-align: center;
+    height:80%;
+    width:80%;
+    margin: auto;
+    margin-bottom: 10px;
+  }
+
+  .categories{
+    text-align: center;
+    margin:auto;
+  }
+
+
+  .carousel-slide{
+    height:310px;
+  }
+  #top-brands-strip img{
+    height:80%;
+    width:80%;
+  }
+
+  #top-brands-strip{
+    text-align: center;
+  }
+
+  #myCarousel .item { height: 220px; }
+
+
+  #slide1 {
+   background: url('../../images/cover-peter-small.jpg') top center no-repeat;
+  }
+
+  #slide2 {
+   background: url('../../images/cover-kaya-small.jpg') top center no-repeat;
+  }
+
+  #slide3 {
+   background: url('../../images/cover-sports-small.jpg') top center no-repeat;
+  }
+
+
+}
+
+
+/* Large desktop */
+@media (min-width: 1200px) {
+
+	#myCarousel .item { height: 500px; }
+
+  #top-brands-strip img{
+    height:80%;
+    width:80%;
+  }
+
+  #top-brands-strip{
+    text-align: center;
+  }
+
+  #myCarousel .item { height: 355px; }
+
+
+  #slide1 {
+   background: url('../../images/cover-peter-large.jpg') top center no-repeat;
+  }
+
+  #slide2 {
+   background: url('../../images/cover-kaya-large.jpg') top center no-repeat;
+  }
+
+  #slide3 {
+   background: url('../../images/cover-sports-large.jpg') top center no-repeat;
+  }
+
+
+
+
+}
